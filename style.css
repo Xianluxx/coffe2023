@@ -1,23 +1,40 @@
 body{
     height: 100vh;
     width: 100%;
-    background: url(images/top-view-cup-coffee-with-coffee-beans-falling-out-glass-jar-wooden-surface.jpg);
+    background: url(images/mainpage.jpg);
     background-size: cover;
     background-position: center;
     background-color: black;
+}
+@font-face {
+    font-family: Coffee;
+    src: url(https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap)
 }
 *{ 
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+.locations {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    }
+    img {
+    width: 100%;
+    }
+    .location {
+    background-color: floralwhite;
+    padding: 20px;
+    }
 .container{
     height: 100vh;
     width: 100%;
-    background: url(images/top-view-cup-coffee-with-coffee-beans-falling-out-glass-jar-wooden-surface.jpg);
+    background: url(images/mainpage.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .nav-bar .title{
     color: floralwhite;
     font-size: 67px;
@@ -59,7 +76,7 @@ box-sizing: border-box;
 .home{
     height: 400px;
     padding: 70px;
-    
+    background-color:rgba(0,0,0,0.4);
 }
 
 .title-1{
@@ -125,6 +142,7 @@ box-sizing: border-box;
 
 }
 }
+
 
 
 /******
